@@ -1,8 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
+import {LocaleProvider} from "antd";
+import {Router} from "react-router-dom";
 
-const App = () => {
+class App extends Component {
+    renderLayout = () => (
+        <Layout
+    )
+    render() {
+        return (
+                <Router>
+
+                </Router>
+        );
+    }
 }
 
 export default App;
